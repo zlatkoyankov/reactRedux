@@ -8,7 +8,7 @@
     "open:source": "babel-node tools/srcServer.js",
     "lint": "node_modules/.bin/esw webpack.congig.* source tools",
     "lint:watch": "npm run lint -- --watch",
-    "test": "mocha --report progress tools/testSetup.js \"source/**/*.test.js\"",
+    "test": "mocha --report progress tools/testSetup.js \"tests/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
   "author": "Zlatko Yankov with basic setup from Cory House",
