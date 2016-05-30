@@ -20,7 +20,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
         options={allAuthors}
         onChange={onChange} error={errors.authorId} />
       <TextInput
-        name="categoty"
+        name="category"
         label="Category"
         value={course.category}
         onChange={onChange}
